@@ -29,9 +29,7 @@ class BrokenView : FrameLayout {
         addView(
             ComposeView(context).apply {
                 setContent {
-                    Box (modifier = Modifier.fillMaxSize()) {
-                        Text("Broken text")
-                    }
+                    Text("Broken text")
                 }
             },
         )
